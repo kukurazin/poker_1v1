@@ -10,20 +10,20 @@
       return deck.splice(Math.ceil(Math.random() * deck.length - 1), 1)[0] 
    } 
  
-   let flop1 = getCard(); 
-   let flop2 = back; 
-   let flop3 = back; 
-   let turn = back; 
-   let river = back; 
+   let dealer1 = getCard(); 
+   let dealer2 = back; 
+   let dealer3 = back; 
+   let dealer4 = back; 
+   let dealer5 = back; 
  
-   let board = flop1 + flop2 + flop3 + turn + river; 
+   let board = dealer1 + dealer2 + dealer3 + dealer4 + dealer5; 
  
-   card1 = getCard(); 
-   card2 = getCard(); 
-   card3 = getCard(); 
-   card4 = getCard(); 
-   card5 = getCard(); 
-   card6 = getCard(); 
+   let card1 = getCard(); 
+   let card2 = getCard(); 
+   let card3 = getCard(); 
+   let card4 = getCard(); 
+   let card5 = getCard(); 
+   let card6 = getCard(); 
  
    let player1 = card1 + card2 + card3 + card4 + card5; 
    console.log('%c ' + player1 + ' ' + board, 'font-size:150px');; 
@@ -39,11 +39,11 @@
  
    console.clear(); 
  
-   flop2 = getCard(); 
-   flop3 = getCard(); 
-   turn = getCard(); 
-   river = getCard(); 
+   dealer2 = getCard(); 
+   dealer3 = getCard(); 
+   dealer4 = getCard(); 
+   dealer5 = getCard(); 
  
-   board = flop1 + flop2 + flop3 + turn + river; 
+   board = dealer1 + dealer2 + dealer3 + dealer4 + dealer5; 
  
    console.log('%c ' + player1 + ' ' + board, 'font-size:150px');
