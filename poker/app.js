@@ -1,5 +1,5 @@
-// You can ask for 6th card or change any card by using their index from left to right. 12345. Please don't use any index twise. It will trigger function averytime. 
-//I'll add filter for unique digits later.
+// You can ask for 6th card or change any card by using their index from left to right. 12345. If you use 6 + any - only 6 is executed. If you use 11 - first card will be changed
+// only once C:
 
 
    let deck = ['🂱', '🃑', '🂡', '🃁', '🂲', '🃂', '🂢', '🃒', '🂣', '🂳', '🃃', '🃓', '🂤', '🂴', '🃄', '🃔', '🂥', '🂵', '🃅', '🃕', '🂦', '🂶', '🃆', '🃖', '🂧', '🂷', '🃇', '🃗', '🂨', '🂸', '🃈', '🃘', '🂩', '🂹', '🃉', '🃙', '🂪', '🂺', '🃊', '🃚', '🂫', '🂻', '🃋', '🃛', '🂮', '🂾', '🃎', '🃞', '🂭', '🂽', '🃍', '🃝']; 
